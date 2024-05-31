@@ -15,7 +15,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Newtonsoft.Json;
 
-namespace LehaPract
+namespace pr8
+
 {
     public class da
     {
