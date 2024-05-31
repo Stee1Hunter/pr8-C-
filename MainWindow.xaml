@@ -1,0 +1,21 @@
+﻿<Window x:Class="LehaPract.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LehaPract"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="53*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="ex1" Text="save1" Margin="529,70,208,269" Grid.Row="1"></TextBox>
+        <TextBox x:Name="ex2" Text="save2" Margin="130,70,604,261" Grid.Row="1"></TextBox>
+        <Button x:Name="save" Click="SaveDataButton_Click" Content="сохранить" Margin="10,239,550,37" Grid.Row="1"></Button>
+        <Button x:Name="load" Click="LoadDataButton_Click" Content="загрузить" Margin="556,239,10,37" Grid.Row="1" RenderTransformOrigin="0.524,0.52"></Button>
+        <Button x:Name="languageRu" Click="ChangeLanguageButtonRu_Click" Content="русский" Margin="263,169,263,122" Grid.Row="1"></Button>
+        <Button x:Name="languageEng" Click="ChangeLanguageButtonEng_Click" Content="английский" Margin="263,266,263,10" Grid.Row="1"></Button>
+    </Grid>
+</Window>
